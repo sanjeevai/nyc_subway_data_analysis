@@ -4,4 +4,8 @@
 # ipynb_checkpoints
 .ipynb_checkpoints/*
 
+# icon file generated in filesystem
 Icon?
+
+# extra file for notes
+notes.md
