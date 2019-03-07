@@ -1,2 +1,7 @@
 # vscode prefs
 .vscode/*
+
+# ipynb_checkpoints
+.ipynb_checkpoints/*
+
+Icon?
