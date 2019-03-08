@@ -2,7 +2,7 @@
 
 ## Project: NYC Subway Data Analysis
 
-## [Blog Version](https://medium.com/@sanjeevai/spark-for-big-data-43e1dfed21f2)
+## [Blog Version](https://medium.com/@sanjeevai/mapreduce-in-python-7bd272da09e6)
 
 ## Table of Contents
 
