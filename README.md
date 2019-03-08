@@ -2,22 +2,25 @@
 
 ## Project: NYC Subway Data Analysis
 
+## [Blog Version](https://medium.com/@sanjeevai/spark-for-big-data-43e1dfed21f2)
+
 ## Table of Contents
 
-- [Project Overview](#overview)
 - [Introduction](#intro)
+- [Problem Statement](#problem)
 - [Part 1: Data Gathering](#p1)
 - [Part 2: Data Analysis](#p2)
 - [Part 3: MapReduce](#p2)
 - [Files](#files)
 - [Software Requirements](#sw_req)
 - [Conclusion](#conclusion)
+- [References](#refs)
 
 ***
 
-<a id="overview"></a>
+<a id="intro"></a>
 
-## Project Overview
+## Introduction
 
 In this project, we look at NYC Subway Data to find out whether more people ride the subway when it’s raining versus when it’s not.
 
@@ -25,43 +28,14 @@ We will compare New York City Subway data, use statistical methods and data
 visualization to draw an interesting conclusion about the subway with the
 dataset that we have analysed.
 
-<a id="intro"></a>
-
-## Introduction
-
 The NYC public transportation system - **Metro Transit Authority** - provides data for download via csv files. Part of the information available are data from the subway turnstiles, containing **weekly logs for cumulative entries and exits** by turnstile and by subway station during a provided timeframe.
 
 For this project, we only used the information available
 [here](http://web.mta.info/developers/turnstile.html).
 
-<a id="p1"></a>
+<a id="problem"></a>
 
-## Part 1: Data Gathering
-
-# Subway Data Analysis
-
-## Table of Contents
-
-- [Introduction](#intro)
-- [About this project](#about)
-- [Session 1 - Data Gathering](#s1)
-- [Session 2 - Data Analysis](#s2)
-- [Session 3 - MapReduce](#s3)
-- [Conclusion](#conclusion)
-
-
-<a id="intro"></a>
-## Introduction
-
-The NYC public transportation system - Metro Transit Authority - provides data for download via csv files. Part of the information available are data from the subway turnstiles, containing weekly logs for cumulative entries and exits by turnstile and by subway station during a provided timeframe.
-
-
-For this project, we will only use the information available [here](http://web.mta.info/developers/turnstile.html).
-
-<a id="about"></a>
-# About this project
-
-For this project, you will apply the knowledge acquired in the first part of this course. We will practice basic **data acquisition** and **data cleaning** tasks to find out fundamental stuff about the data through a statistical approach.
+## Problem Statement
 
 The goal of this project is to explore the relationship between data from the **NYC Subway turnstiles** and the **city weather.** For this, besides data from the subway, we will also need data from the **weather in NYC.**
 
@@ -71,8 +45,7 @@ Here are the main points that will be considered in this work:
 - **Using Statistics** for Data Analysis
 - **Data handling** and **simple graphics creation** with `Pandas`
 
-
-<a id="s1"></a>
+<a id="p1"></a>
 
 ## Part 1 - Data Gathering
 
@@ -263,4 +236,12 @@ interaction count with subway users for each turnstile).
 
 This project gives a practical experience of writing MapReduce jobs in Python
 with the help of [Hadoop Streaming](https://archive.cloudera.com/cdh5/cdh/5/hadoop/hadoop-mapreduce-client/hadoop-mapreduce-client-core/HadoopStreaming.html#Hadoop_Streaming). Hadoop Streaming is a generic API which
-allows writing Mappers and Reducers in **any language** which can read from `stdin`.
+allows writing Mappers and Reducers in **any language** which can read from
+`stdin`.
+
+<a id="refs"></a>
+
+## References
+
+- Data and metadata from [Metro Transit
+  Authority](http://web.mta.info/developers/turnstile.html), New York.
