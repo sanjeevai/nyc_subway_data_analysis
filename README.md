@@ -204,17 +204,17 @@ ones) are mentioned in _requirements.txt_ file.
 
 <pre>
 .
-├── Analyzing_Subway_Data_NDFDSI.ipynb # ANALYSIS NOTEBOOK
-├── mapper_result.txt                  # MAPPER OUTPUT SAVED IN THIS FILE
-├── master_file.txt                    # COMBINATION OF THE BELOW FOUR TXT FILES
-|                                      # OF TURNSTILE DATA
-|                                      # (file format is turnstile_***.txt)
-├── reducer_result.txt                 # REDUCER OUTPUT SAVED IN THIS FILE
-├── turnstile_030617.txt               # WEEK 1 TURNSTILE DATA FOR JUNE 2017
-├── turnstile_100617.txt               # WEEK 2 TURNSTILE DATA FOR JUNE 2017
-├── turnstile_170617.txt               # WEEK 3 TURNSTILE DATA FOR JUNE 2017
-├── turnstile_240617.txt               # WEEK 4 TURNSTILE DATA FOR JUNE 2017
-└── turnstile_data_master_with_weather.csv
+├── Analyzing_Subway_Data_NDFDSI.ipynb---------# ANALYSIS NOTEBOOK
+├── mapper_result.txt--------------------------# MAPPER OUTPUT SAVED IN THIS FILE
+├── master_file.txt----------------------------# COMBINATION OF THE BELOW FOUR TXT FILES
+|                                              # OF TURNSTILE DATA
+|                                              # (file format is turnstile_***.txt)
+├── reducer_result.txt-------------------------# REDUCER OUTPUT SAVED IN THIS FILE
+├── turnstile_030617.txt-----------------------# WEEK 1 TURNSTILE DATA FOR JUNE 2017
+├── turnstile_100617.txt-----------------------# WEEK 2 TURNSTILE DATA FOR JUNE 2017
+├── turnstile_170617.txt-----------------------# WEEK 3 TURNSTILE DATA FOR JUNE 2017
+├── turnstile_240617.txt-----------------------# WEEK 4 TURNSTILE DATA FOR JUNE 2017
+└── turnstile_data_master_with_weather.csv-----# WEATHER DATA DOWNLOADED FROM S3
 </pre>
 
 <a id="conclusion"></a>
