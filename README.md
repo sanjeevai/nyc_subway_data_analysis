@@ -191,7 +191,7 @@ number of entries through it. Here's a preview:
 
 <img src="./img/sc2.png" alt="dist" width="100%">
 
-<a id="sw_lib"></a>
+<a id="sw_req"></a>
 
 ## Software Requirements
 
