@@ -196,7 +196,7 @@ number of entries through it. Here's a preview:
 ## Software Requirements
 
 This project uses Python 2.7.15 and the necessary libraries (except the standard
-ones) are mentioned in [_requirements.txt_](requirements.txt)
+ones) are mentioned in _requirements.txt_ file.
 
 <a id="files"></a>
 
