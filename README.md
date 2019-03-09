@@ -133,7 +133,7 @@ def mapper():
     """
     Parses "UNIT" and "ENTRIESn_hourly" for each row and prints to stdout
     """
-
+    next(sys.stdin)
     for line in sys.stdin:
 
         observation = line.strip().split(",")
@@ -180,7 +180,8 @@ def reducer():
             entries_count += float(this_entry)
         except:
             continue
-
+    print "%s\t%s" % (old_key, entries_count)
+    
 sys.stdin = open('mapper_result.txt')
 sys.stdout = open('reducer_result.txt', 'w')
 reducer()
