@@ -108,7 +108,7 @@ calculates the hourly exits.
 ## Part 2: Data Analysis
 
 Distribution of hourly entries when calculated on the basis of raining condition
-give some interesting results.
+gives some interesting results.
 
 <a id="plot"></a>
 
